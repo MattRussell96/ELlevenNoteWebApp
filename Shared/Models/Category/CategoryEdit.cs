@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace ElevenNoteWebApp.Shared.Models.Category
 {
-    internal class CategoryEdit
+    public class CategoryEdit
     {
+        [Required]
+        public int Id { get; set; }
         [Required]
         public string Name { get; set; }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNoteWebApp.Shared.Models.Category
 {
-    internal class CategoryDetail
+    public class CategoryDetail
     {
         public int Id { get; set; }
         public string Name { get; set; }

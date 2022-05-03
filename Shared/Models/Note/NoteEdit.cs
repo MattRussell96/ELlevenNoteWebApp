@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNoteWebApp.Shared.Models
 {
-    internal class NoteEdit
+    public class NoteEdit
     {
         [Required]
         public int Id { get; set; }
